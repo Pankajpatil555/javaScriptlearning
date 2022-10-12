@@ -20,7 +20,22 @@ console.log("************************************");
 const areaofReactngle=function(length,width)
 {
 return length*width
+ 
 }
 console.log("area of rectangle");
 console.log(areaofReactngle(25,36));
+
+ const swap_values=function(arg1,arg2){
+    console.log("---------------*before swap*-----------------");
+    console.log(arg1,arg2);
+    console.log("*--------------*after swap*------------------*");
+    var temp=arg1;
+    arg1=arg2;
+    arg2=temp;
+    console.log(arg1,arg2);
+
+}
+swap_values("sachin","anjali")
+
+
 
