@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+      .box{
+        position: relative;left: 50px;top: 50px;
+
+      }
+      .box1{
+        margin-top: 25px;
+        margin-left: 50px;
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+      <form name="calci" action="calci.js">
+      <input type="text" name="num1" placeholder="enter number 1">
+      <input type="text" name="num2" placeholder="enter number 2">
+      <input type="text" name="result" placeholder="result is here">
+
+      <br>
+      <div class="box1">
+
+
+      <input type="button" value="Addition" onClick="addition()">
+      <input type="button" value="substraction" onClick="minus()">
+      <input type="button" value="Multiplication" onClick="multiply()">
+      <input type="button" value="divide" onClick="divide()">
+    </div>
+      
+
+      </form>
+     </div>
+     <script type="text/javascript">
+      function addition(){
+    var num1,num2,result;
+    num1=Number(document.calci.num1.value)
+    num2=Number(document.calci.num2.value)
+    result=num1+num2
+    document.calci.result.value=result;
+
+  }
+
+  function minus(){
+    var num1,num2,result;
+    num1=Number(document.calci.num1.value)
+    num2=Number(document.calci.num2.value)
+    result=num1-num2
+    document.calci.result.value=result;
+
+  }
+
+  function multiply(){
+    var num1,num2,result;
+    num1=Number(document.calci.num1.value)
+    num2=Number(document.calci.num2.value)
+    result=num1*num2
+    document.calci.result.value=result;
+
+  }
+
+  function divide(){
+    var num1,num2,result;
+    num1=Number(document.calci.num1.value)
+    num2=Number(document.calci.num2.value)
+    result=num1/num2
+    document.calci.result.value=result;
+
+  }
+
+
+        
+
+
+
+
+
+     </script>
+</body>
+</html>

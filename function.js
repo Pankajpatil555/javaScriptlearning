@@ -6,3 +6,18 @@ function pankaj(pk){
 }
 var  veg=pankaj(143);
 console.log(veg);
+
+
+
+
+function oddEven(num1){
+    if(num1%2==0){
+        console.log("number is even ");
+    }
+    else{
+        console.log("number is odd");
+    }
+
+}
+
+oddEven(45)

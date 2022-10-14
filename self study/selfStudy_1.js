@@ -17,3 +17,8 @@ const time=function(time){
 console.log(time(22));
 
 
+console.log("==============trim()===============");
+var greet = " Good Morning bro and sis";
+console.log(greet.length);
+var trimResult =  greet.trim();
+console.log(trimResult.length);
