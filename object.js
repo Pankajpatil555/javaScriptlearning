@@ -54,6 +54,8 @@ let sachin={
 // console.table(sachin);
 sachin.detail()
 sachin.bark()
+let isavai="fullname" in sachin
+console.log(isavai);
 
 
 
