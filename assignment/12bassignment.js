@@ -28,12 +28,9 @@ for (let item of array) {
     if (item==kotak_bank) {
         console.log(item);  
     }
-
-    
-    
 }
 for (const iterator of array) {
-    console.table(iterator);
+    console.log(iterator);
     
 }
 

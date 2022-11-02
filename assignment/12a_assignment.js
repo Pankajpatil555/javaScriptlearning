@@ -31,3 +31,4 @@ for (let index = 0; index < sbi_details.length; index++) {
     console.log(pk);
     
 }
+
