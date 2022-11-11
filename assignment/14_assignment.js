@@ -23,10 +23,16 @@ let shoq=(a,b,c=3)=>{
         
     show(3,5)
 
-    let key=(p,q,r,s,t,)=>{
-        console.log(`the addition is :${p+q+r+s+t}`);
+    let key=(p,q,r,s,t)=>{
+        // console.log(`the addition is :${p+q+r+s+t}`);
+        var h= (p+q+r+s+t)
+        var text="addition is "
+        let result=text.concat(h)
+        // console.log(result);
+        return result
 
     }
     console.log("****************************************************")
+    
       key(100,100,200,349,756)
       key(" im"," learning"," es6"," feature"," indeapth")
